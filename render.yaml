@@ -8,7 +8,5 @@ services:
     envVars:
       - key: BOT_TOKEN
         value: 8985690585:AAGobmNJJ3hTlk6ZZllsEjd77LuAyIDIPjE
-      - key: PYTHON_VERSION
-        value: 3.11.0
       - key: WEBHOOK_URL
-        sync: false  # You will set this after first deploy
+        sync: false
